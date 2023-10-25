@@ -58,7 +58,7 @@ public class Main {
     }
     // Question 5 - endUp
     public static String endUp(String str){
-        if (str.length() <= 3) {
+        if (str.length() < 3) {
             return str.toUpperCase();
         }
         else{
